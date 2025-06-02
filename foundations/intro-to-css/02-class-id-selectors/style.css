@@ -1,0 +1,15 @@
+.red-bg {
+    background-color: rgb(233, 177, 177);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+.big-font {
+    font-size: 24px;
+}
+.second {
+    color: blue;
+    font-size: 36px;
+}
+.fourth {
+    background-color: rgb(157, 212, 157);
+    font-size: 24px;
+}
