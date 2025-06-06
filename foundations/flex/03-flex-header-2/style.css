@@ -10,8 +10,6 @@ body {
 
 .header {
   background: white;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
 .profile-image {
@@ -27,6 +25,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 8px;
 }
 
 button {
@@ -41,8 +40,40 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin-right: 8px;
 }
 
 ul {
   list-style-type: none;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex: 1;
+}
+
+.notification {
+  background-color: white;
+  display: flex;
+  margin-left: auto;
+}
+.notifications {
+  padding: 8px;
+  margin: 8px 16px;
+
+}
+.profile-image {
+  margin-right: 16px;
+  margin-top: 4px;
 }
